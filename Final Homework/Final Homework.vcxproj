@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F9E85309-A2C9-4182-9388-56F2F308B284}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>FinalHomework</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Baneling.cpp" />
+    <ClCompile Include="Bullet_Double.cpp" />
+    <ClCompile Include="Coins.cpp" />
+    <ClCompile Include="CoreInterface.cpp" />
+    <ClCompile Include="GameStart.cpp" />
+    <ClCompile Include="Hydralisk.cpp" />
+    <ClCompile Include="Bullet_Single.cpp" />
+    <ClCompile Include="InterfaceOfScore.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Person.cpp" />
+    <ClCompile Include="Roach.cpp" />
+    <ClCompile Include="Score.cpp" />
+    <ClCompile Include="Zerg.cpp" />
+    <ClCompile Include="zergclock.cpp" />
+    <ClCompile Include="ZergDraw.cpp" />
+    <ClCompile Include="Zergling.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Baneling.h" />
+    <ClInclude Include="Bugs.h" />
+    <ClInclude Include="Bullet_Double.h" />
+    <ClInclude Include="Coins.h" />
+    <ClInclude Include="CoreInterface.h" />
+    <ClInclude Include="GameStart.h" />
+    <ClInclude Include="Hydralisk.h" />
+    <ClInclude Include="Bullet_Single.h" />
+    <ClInclude Include="InterfaceOfScore.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="PauseAndDelete.h" />
+    <ClInclude Include="Person.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="resource2.h" />
+    <ClInclude Include="Roach.h" />
+    <ClInclude Include="Score.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="Zerg.h" />
+    <ClInclude Include="Zergling.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Pictures\background.jpg" />
+    <Image Include="res\Pictures\bandage.jpg" />
+    <Image Include="res\Pictures\baneling.jpg" />
+    <Image Include="res\Pictures\banelingMask.jpg" />
+    <Image Include="res\Pictures\blackbackground.jpg" />
+    <Image Include="res\Pictures\btnMask.jpg" />
+    <Image Include="res\Pictures\btnMenu.jpg" />
+    <Image Include="res\Pictures\btnMenuOver.jpg" />
+    <Image Include="res\Pictures\btnReset.jpg" />
+    <Image Include="res\Pictures\btnResetOver.jpg" />
+    <Image Include="res\Pictures\coins.jpg" />
+    <Image Include="res\Pictures\coins1.jpg" />
+    <Image Include="res\Pictures\coinsMask.jpg" />
+    <Image Include="res\Pictures\coinsNumber.jpg" />
+    <Image Include="res\Pictures\coinsNumberMask.jpg" />
+    <Image Include="res\Pictures\energy_drink.jpg" />
+    <Image Include="res\Pictures\explode.jpg" />
+    <Image Include="res\Pictures\explode1.jpg" />
+    <Image Include="res\Pictures\explodeMask.jpg" />
+    <Image Include="res\Pictures\explodeMask1.jpg" />
+    <Image Include="res\Pictures\first_aid_kit.jpg" />
+    <Image Include="res\Pictures\heart.jpg" />
+    <Image Include="res\Pictures\hydralisk.jpg" />
+    <Image Include="res\Pictures\hydraliskMask.jpg" />
+    <Image Include="res\Pictures\number.jpg" />
+    <Image Include="res\Pictures\numberMask.jpg" />
+    <Image Include="res\Pictures\oilTank.jpg" />
+    <Image Include="res\Pictures\oilTankMask.jpg" />
+    <Image Include="res\Pictures\oil_tank.jpg" />
+    <Image Include="res\Pictures\pause.jpg" />
+    <Image Include="res\Pictures\person.jpg" />
+    <Image Include="res\Pictures\personDie.jpg" />
+    <Image Include="res\Pictures\personMask.jpg" />
+    <Image Include="res\Pictures\personMask2.jpg" />
+    <Image Include="res\Pictures\personMask3.jpg" />
+    <Image Include="res\Pictures\roach.jpg" />
+    <Image Include="res\Pictures\roachMask.jpg" />
+    <Image Include="res\Pictures\resume.jpg" />
+    <Image Include="res\Pictures\score.jpg" />
+    <Image Include="res\Pictures\scores.jpg" />
+    <Image Include="res\Pictures\scoresBackground.jpg" />
+    <Image Include="res\Pictures\scoresMask.jpg" />
+    <Image Include="res\Pictures\spit1.jpg" />
+    <Image Include="res\Pictures\spitMask1.jpg" />
+    <Image Include="res\Pictures\store.jpg" />
+    <Image Include="res\Pictures\zergling.jpg" />
+    <Image Include="res\Pictures\zerglingMask.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\Musics\game_music_march.mp3" />
+    <Media Include="res\Sounds\click.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Musics\game_music_march.wma" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

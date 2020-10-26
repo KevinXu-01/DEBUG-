@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Baneling.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet_Double.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet_Single.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Coins.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreInterface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStart.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Hydralisk.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfaceOfScore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Person.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Roach.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Zerg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zergclock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZergDraw.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Zergling.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Baneling.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Bugs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet_Double.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet_Single.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Coins.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStart.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Hydralisk.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="InterfaceOfScore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Roach.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Zerg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Zergling.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseAndDelete.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\Sounds\click.wav">
+      <Filter>资源文件</Filter>
+    </Media>
+    <Media Include="res\Musics\game_music_march.mp3">
+      <Filter>资源文件</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Pictures\background.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\bandage.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\baneling.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\banelingMask.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\blackbackground.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\btnMask.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\btnMenu.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\btnMenuOver.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\btnReset.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\btnResetOver.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\coins.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\coins1.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\coinsMask.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\coinsNumber.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\coinsNumberMask.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\energy_drink.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\explode.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\explode1.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\explodeMask.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\explodeMask1.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\first_aid_kit.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\heart.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\hydralisk.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\hydraliskMask.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\number.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\numberMask.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\oil_tank.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\oilTank.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\oilTankMask.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\pause.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\person.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\personDie.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\personMask.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\personMask2.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\personMask3.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\resume.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\roach.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\roachMask.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\score.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\scores.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\scoresBackground.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\scoresMask.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\zerglingMask.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\spit1.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\spitMask1.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\store.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Pictures\zergling.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Musics\game_music_march.wma">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{c4cb2c20-cb1e-455b-ba72-8812cb271de2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{f4d678cd-065e-4ed3-8f0b-1882bfd10639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{6a3e34fa-bb6c-4c22-b1bc-1a16fe23b8d9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
